@@ -6,13 +6,15 @@
     margin-right:100px;
     background-color: rgba(22, 21, 21, 0.507);
     padding: 20px;
+    height: 150px;
+    width: 150px;
 
 }
 
 .greatIconImg{
     -webkit-filter: drop-shadow(3px 3px 3px #222);
     filter: drop-shadow(3px 3px 3px #222);
-    height: 200px;
+    height: 100px;
 }
 .greatIconText{
     font-size: 30px;
@@ -21,4 +23,8 @@
     color: #ED8F19;
     filter: drop-shadow(3px 3px 3px #222);
 
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
