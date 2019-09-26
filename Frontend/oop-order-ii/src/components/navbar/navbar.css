@@ -54,6 +54,20 @@ nav{
     color: #7D7060;
     padding: 10px; 
 
-    
+}
 
+@media only screen and (max-width: 600px) {
+    
+    #menu li a{
+        padding: 5px; 
+    }
+
+    #menu li{
+        margin: 0px;
+     }
+
+     a{
+         font-size: 15px;
+     }
+    
 }

@@ -4,7 +4,7 @@ import Logo from './assets/logo.png'
 
 export function Navbar(){
     return(
-        <div>
+        <div id = "aboveall">
             <div id = "orange"></div>
             <header>
                 <img id = "logo" src = {Logo}></img>
