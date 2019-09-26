@@ -10,3 +10,21 @@ html{
 }
 
 
+body{
+  height: 100%;
+  min-height: 100%;
+  background-image: url("./assets/teste8.jpg");
+  background-size:100% 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    
+  body{
+      height: 100%;
+      min-height: 100%;
+      background-image: url("./assets/mobile.jpg");
+      background-size:100%;
+  }
+  
+}
+
