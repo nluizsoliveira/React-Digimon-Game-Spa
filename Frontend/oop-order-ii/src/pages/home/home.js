@@ -1,6 +1,5 @@
 import React from 'react';
 import {Jumbotron} from '../../components/jumbotron/jumbotron'
-import {Navbar} from '../../components/navbar/navbar'
 import {GreatIcon} from '../../components/greatIcon/greatIcon'
 
 import './home.css'
@@ -14,7 +13,6 @@ export function Home(){
 
     return(
         <div id = "home-wrapper">
-            <Navbar/>
             <div id = "background">
                 <div id = "container">
                     <Jumbotron name = "Digimon World OOP Order II"/>
